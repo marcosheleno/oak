@@ -1,0 +1,20 @@
+{
+  "name": "oak/framework",
+  "version": "0.0.1",
+  "authors": [{
+    "name": "Marcos Heleno Vieira de Oliveira",
+    "email": "marcosheleno92@gmail.com",
+    "homepage": "http://www.marcosheleno.com.br",
+    "role": "Developer"
+  }],
+  "require":{
+    "symfony/http-foundation": "^3.0",
+    "symfony/routing": "^3.1",
+    "symfony/http-kernel": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oak\\": "src/"
+    }
+  }
+}
